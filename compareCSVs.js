@@ -4,8 +4,8 @@ import * as fs from 'fs'; //used to read the contents of a file
 //BEGIN USER INPUTS ====================================================================================
 //Absolute or relative paths to a csv file. See ./csvs folder for input samples
 const files = [
-    'CSV1.csv',
-    'CSV2.csv'
+    'csvs/CSV1.csv',
+    'csvs/CSV2.csv'
 ];
 
 //Optional String flag to set during call.
@@ -245,11 +245,8 @@ const errors = [
 
 main(); //calls function
 
-//exports used for unit-testing
+//exports used for example unit-testing
 export {
     validateConcernFlag,
-    validateDistinctCSVs,
-    formatCSV,
-    formatFields,
-    hashCSV
+    validateDistinctCSVs
 };
