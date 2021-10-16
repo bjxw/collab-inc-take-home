@@ -1,0 +1,7 @@
+{
+    "name": "collab-inc-test",
+    "type": "module",
+    "scripts":{
+        "start": "node compareCSVs"
+    }
+}
