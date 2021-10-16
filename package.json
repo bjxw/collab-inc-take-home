@@ -2,6 +2,7 @@
     "name": "collab-inc-test",
     "type": "module",
     "scripts":{
-        "start": "node compareCSVs"
+        "start": "node compareCSVs",
+        "test": "node tests"
     }
 }

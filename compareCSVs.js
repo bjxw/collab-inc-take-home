@@ -243,7 +243,7 @@ const errors = [
     'Error 5: validateCSVs() has reached an error processing a .csv file(s). Please review your input files.'
 ];
 
-main(); //calls function
+main(); //calls function once
 
 //exports used for example unit-testing
 export {
