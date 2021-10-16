@@ -1,5 +1,5 @@
 # Running Instructions
-0. Node.js required
+0. Node.js required (Download [here](https://nodejs.org/en/download/))
 1. `git clone` the repo
 2. Navigate to repo home directory
 3. Adjust input parameters `files` and `concern` as seen between lines 6 - 12 in `compareCSVs.js`. Be sure to save
